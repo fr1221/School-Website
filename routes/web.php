@@ -18,6 +18,11 @@ Route::get('/ekstrakurikuler', [PublicController::class, 'ekstrakurikuler'])->na
 Route::get('/search', [PublicController::class, 'search'])->name('search');
 Route::post('/contact', [PublicController::class, 'contactSubmit'])->name('contact.submit');
 
+Route::get('/kontekai', [PublicController::class, 'kontekai'])->name('kontekai');
+Route::get('/search', [PublicController::class, 'search'])->name('search');
+Route::post('/contact', [PublicController::class, 'contactSubmit'])->name('contact.submit');
+
+
 Route::middleware(['web'])->group(function () {
     Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
     Route::post('/login', [AuthController::class, 'login']);

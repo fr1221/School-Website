@@ -454,7 +454,7 @@
             </h1>
             <p class="text-lg sm:text-xl md:text-2xl mb-10 text-shadow font-light max-w-3xl mx-auto fade-in" style="transition-delay: 0.2s">Maju Bersama, Unggul Berkarakter</p>
             <div class="flex flex-col sm:flex-row justify-center gap-6 mb-12 fade-in" style="transition-delay: 0.4s">
-                <a href="/KontekAI" class="btn-primary text-white px-8 py-4 rounded-full font-semibold shadow-lg inline-flex items-center float-animation">
+                <a href="/kontekai" class="btn-primary text-white px-8 py-4 rounded-full font-semibold shadow-lg inline-flex items-center float-animation">
                     <i class="fas fa-robot mr-2"></i> KontekAI
                 </a>
                 <a href="{{ route('berita') }}" class="bg-white bg-opacity-20 text-white px-8 py-4 rounded-full font-semibold hover:bg-opacity-30 shadow-lg transition-all duration-300 border border-white border-opacity-30 inline-flex items-center float-animation" style="animation-delay: 0.5s">

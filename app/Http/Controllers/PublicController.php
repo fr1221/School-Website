@@ -78,6 +78,11 @@ class PublicController extends Controller
         return view('public.ekstrakurikuler', compact('ekstrakurikuler'));
     }
 
+    public function kontekai()
+    {
+        return view('public.kontekai');
+    }
+
     public function search(Request $request)
     {
         $query = $request->get('q');

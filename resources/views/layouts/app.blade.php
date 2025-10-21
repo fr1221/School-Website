@@ -52,7 +52,7 @@
                 <a href="{{ route('home') }}#pengumuman" class="nav-link text-white font-medium {{ request()->is('/') ? 'active' : '' }}">Profil</a>
                 <a href="{{ route('berita') }}" class="nav-link text-white font-medium {{ request()->is('berita*') ? 'active' : '' }}">Berita</a>
                 <a href="{{ route('home') }}#layanan" class="nav-link text-white font-medium">Layanan</a>
-                <a href="{{ route('home') }}#kontekai" class="nav-link text-white font-medium">KontekAI</a>
+                <a href="{{ route('home') }}/kontekai" class="nav-link text-white font-medium">KontekAI</a>
                 <a href="{{ route('prestasi') }}" class="nav-link text-white font-medium {{ request()->is('prestasi*') ? 'active' : '' }}">Prestasi</a>
                 <a href="{{ route('alumni') }}" class="nav-link text-white font-medium {{ request()->is('alumni*') ? 'active' : '' }}">Alumni</a>
             </nav>
