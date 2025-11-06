@@ -13,7 +13,7 @@ class PublicController extends Controller
 {
     public function home()
     {
-        $pengumuman = Pengumuman::active()->latest()->take(3)->get();
+        $pengumuman = Pengumuman::active()->latest()->take(2)->get();
         $berita = Berita::active()->latest()->take(3)->get();
         $prestasi = Prestasi::active()->latest()->take(2)->get();
         $alumni = Alumni::active()->inRandomOrder()->take(5)->get();

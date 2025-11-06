@@ -25,5 +25,32 @@ class AlumniSeeder extends Seeder
             'testimoni' => 'Pengalaman belajar di SMKN 2 Kudus sangat membentuk karakter dan keterampilan saya. Terima kasih atas pendidikan yang luar biasa!',
             'status' => true,
         ]);
+
+        Alumni::create([
+            'nama' => 'Oktaviandhani Dwi Cahya Putra',
+            'foto' => null,
+            'jurusan' => 'TJKT',
+            'tahun_lulus' => 2021,
+            'testimoni' => 'Pengalaman belajar di SMKN 2 Kudus sangat membentuk karakter dan keterampilan saya. Terima kasih atas pendidikan yang luar biasa!',
+            'status' => true,
+        ]);
+
+        Alumni::create([
+            'nama' => 'Dendik Setiawan',
+            'foto' => null,
+            'jurusan' => 'TJKT',
+            'tahun_lulus' => 2019,
+            'testimoni' => 'Pengalaman belajar di SMKN 2 Kudus sangat membentuk karakter dan keterampilan saya. Terima kasih atas pendidikan yang luar biasa!',
+            'status' => true,
+        ]);
+
+        Alumni::create([
+            'nama' => 'Slamet Riyadi',
+            'foto' => null,
+            'jurusan' => 'TJKT',
+            'tahun_lulus' => 1999,
+            'testimoni' => 'Pengalaman belajar di SMKN 2 Kudus sangat membentuk karakter dan keterampilan saya. Terima kasih atas pendidikan yang luar biasa!',
+            'status' => true,
+        ]);
     }
 }
