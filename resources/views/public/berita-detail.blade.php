@@ -7,7 +7,7 @@
     .news-detail-hero {
         background: linear-gradient(135deg, #059669 0%, #047857 50%, #065f46 100%);
         position: relative;
-        overflow: hidden;
+        overflow: ;
     }
     .news-detail-hero::before {
         content: '';
@@ -63,22 +63,6 @@
 @endsection
 
 @section('content')
-<!-- Breadcrumb -->
-<section class="bg-gradient-to-r from-green-50 to-emerald-100 py-6 border-b border-green-200">
-    <div class="container mx-auto px-4">
-        <nav class="flex items-center space-x-2 text-sm">
-            <a href="{{ route('home') }}" class="text-green-600 hover:text-green-800 font-semibold flex items-center group">
-                <i class="fas fa-home mr-2 group-hover:scale-110 transition-transform"></i>Beranda
-            </a>
-            <i class="fas fa-chevron-right text-green-400 text-xs"></i>
-            <a href="{{ route('berita') }}" class="text-green-600 hover:text-green-800 font-semibold flex items-center group">
-                <i class="fas fa-newspaper mr-2 group-hover:scale-110 transition-transform"></i>Berita
-            </a>
-            <i class="fas fa-chevron-right text-green-400 text-xs"></i>
-            <span class="text-gray-600 font-semibold truncate max-w-xs">{{ Str::limit($berita->judul, 40) }}</span>
-        </nav>
-    </div>
-</section>
 
 <!-- Hero Section -->
 <section class="news-detail-hero text-white py-16 relative">

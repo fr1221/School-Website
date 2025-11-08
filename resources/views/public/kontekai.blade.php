@@ -159,7 +159,7 @@
         // Fungsi untuk menyembunyikan indikator mengetik
         function hideTypingIndicator() {
             const typingIndicator = document.getElementById('typing-indicator');
-            if (typingIndicator) {
+            if (typingIndicator) {profil
                 typingIndicator.remove();
             }
         }

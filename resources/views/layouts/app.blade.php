@@ -49,12 +49,12 @@
 
             <!-- Desktop Menu -->
             <nav class="hidden md:flex space-x-6 lg:space-x-8">
-                <a href="{{ route('home') }}#pengumuman" class="nav-link text-white font-medium {{ request()->is('/') ? 'active' : '' }}">Profil</a>
+                <a href="{{ route('home') }}#" class="nav-link text-white font-medium {{ request()->is('/') ? 'active' : '' }}">Beranda</a>
+                <a href="{{ route('home') }}#pengumuman" class="nav-link text-white font-medium {{ request()->is('pengumuman') ? 'active' : '' }}">Profil</a>
                 <a href="{{ route('berita') }}" class="nav-link text-white font-medium {{ request()->is('berita*') ? 'active' : '' }}">Berita</a>
                 <a href="{{ route('home') }}#layanan" class="nav-link text-white font-medium">Layanan</a>
                 <a href="{{ route('home') }}/kontekai" class="nav-link text-white font-medium">KontekAI</a>
                 <a href="{{ route('prestasi') }}" class="nav-link text-white font-medium {{ request()->is('prestasi*') ? 'active' : '' }}">Prestasi</a>
-                <a href="{{ route('ekstrakurikuler') }}" class="nav-link text-white font-medium {{ request()->is('ekstrakurikuler*') ? 'active' : '' }}">Ekstrakurikuler</a>
             </nav>
 
             <!-- Mobile Menu Button -->
@@ -74,7 +74,6 @@
             <a href="{{ route('home') }}#layanan" class="nav-link text-blue-800 font-medium py-3 px-6 hover:bg-blue-50 transition-colors duration-200">Layanan</a>
             <a href="{{ route('home') }}#kontekai" class="nav-link text-blue-800 font-medium py-3 px-6 hover:bg-blue-50 transition-colors duration-200">KontekAI</a>
             <a href="{{ route('prestasi') }}" class="nav-link text-blue-800 font-medium py-3 px-6 hover:bg-blue-50 transition-colors duration-200">Prestasi</a>
-            <a href="{{ route('ekstrakurikuler') }}" class="nav-link text-blue-800 font-medium py-3 px-6 hover:bg-blue-50 transition-colors duration-200">Ekstrakurikuler</a>
         </div>
     </div>
 
