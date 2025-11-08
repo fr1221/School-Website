@@ -37,8 +37,8 @@
         <div class="container mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
             <!-- Logo -->
             <div class="flex items-center space-x-3">
-                <div class="h-12 w-12 rounded-full border-2 border-white border-opacity-50 overflow-hidden">
-    <img src="{{ asset('images/logo-smk.png') }}" alt="Logo SMKN 2 Kudus" class="w-full h-full object-cover">
+                <div class="h-12 w-12 rounded-full border-2 border-transparent border-opacity-50 overflow-hidden">
+    <img src="{{ asset('storage/logo-smk.png') }}" alt="Logo SMKN 2 Kudus" class="w-full h-full object-cover">
 </div>
 
          <div class="flex flex-col leading-tight">
@@ -88,8 +88,8 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div>
                     <div class="flex items-center mb-6">
-                       <div class="h-20 w-20 rounded-full border-2 border-white overflow-hidden">
-    <img src="{{ asset('images/SMK-Nyu.png') }}" alt="Logo SMKN 2 Kudus" class="w-full h-full object-cover">
+                       <div class="h-20 w-20 rounded-full border-2 border-transparent overflow-hidden">
+   <img src="{{ asset('storage/logo-smk.png') }}" alt="Logo SMKN 2 Kudus" class="w-full h-full object-cover">
 </div>
 
                         <h2 class="text-2xl font-bold ml-4">SMKN 2 KUDUS</h2>
